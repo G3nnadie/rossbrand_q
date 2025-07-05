@@ -77,6 +77,7 @@ $(document).ready(function () {
   });
 
   var swiper3 = new Swiper(".q-tasks__body", {
+    // effect: 'fade',
     autoplay: {
       delay: 5000,
       disableOnInteraction: false
@@ -95,11 +96,10 @@ $(document).ready(function () {
     },
     breakpoints: {
       992: {
-        effect: 'fade',
         onlyExternal: true,
         allowTouchMove: false,
         autoplay: {
-          delay: 111111111,
+          delay: 5555555555,
         },
       },
     },

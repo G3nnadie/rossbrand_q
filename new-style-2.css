@@ -1141,6 +1141,12 @@ a.q-nav__panel-item:hover {
   top: 0;left: 0;right: 0;bottom: 0;
 }
 
+.q-tasks__img i {
+  position: absolute;
+  background-position: 0 0;
+  top: 0;left: 0;right: 0;bottom: 0;
+}
+
 .q-tasks__item--1 .q-task__row {
   background: #254CA0;
 }
@@ -2076,6 +2082,7 @@ a.q-nav__panel-item:hover {
     display: -ms-flexbox;
     display: flex;
   }
+  .q-tasks__img i,
   .q-tasks__sl .q-swiper-button {
     display: none !important;
   }
