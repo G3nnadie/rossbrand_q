@@ -2138,4 +2138,7 @@ a.q-nav__panel-item:hover {
     padding-left: 40px;
     padding-right: 40px;
   }
+  .q-footer .footer-menu {
+    width: 700px;
+  }
 }
